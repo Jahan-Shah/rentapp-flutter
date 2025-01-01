@@ -24,9 +24,9 @@ class MapsDetailsPage extends StatelessWidget {
           FlutterMap(
             options: MapOptions(
               // Using 'initialCenter' for map center
-              initialCenter: LatLng(51.0, -0.09),
+              initialCenter: LatLng(31.4619481, 73.1459724),
               // Use 'initialZoom' instead of 'zoom'
-              initialZoom: 13.0,
+              initialZoom: 16,
             ),
             children: [
               TileLayer(
